@@ -1,0 +1,14 @@
+.home-component {
+  background-image: url('../top-image_downtown.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+
+.top {
+  margin-left: 10px;
+}
+/*#home-logo {
+  text-align: center;
+  padding-top: 32vh;
+}*/
