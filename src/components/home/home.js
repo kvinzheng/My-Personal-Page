@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; // eslint-disable-next-line
+import Skills from '../skill/skill';
 
 const Home = () => {
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <div className="home-component">
       </div>
+      <Skills />
     </div>
   );
 };

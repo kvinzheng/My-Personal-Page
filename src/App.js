@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; // eslint-disable-next-line
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
-import navbarInstance from './components/navbar/navbar';
+import Narvbar from './components/navbar/navbar';
 import Home from './components/home/home';
 import './App.css';
 
@@ -11,13 +11,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div>
+        {/* <div>
           hi
-        </div>
+        </div> */}
         <Router>
           <div className="App">
-            {/* <Route path="/" component={App}>  */}
-            <Route path='/' component={navbarInstance} />
+            <Route path='/' component={Narvbar} />
             <Route exact path="/" component={Home} />
           </div>
         </Router>
