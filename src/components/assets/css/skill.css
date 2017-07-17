@@ -57,6 +57,23 @@
     vertical-align: middle;
 }
 
+.contact-area {
+  display: block;
+}
+
+.contact-area h2 {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bot .contact-area p {
+  color: #fff ;
+}
+
+.icon {
+  margin: 5px 10px 5px 10px;
+}
 .wrap:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);

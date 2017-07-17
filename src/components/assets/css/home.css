@@ -62,7 +62,11 @@ hr {
   text-align: left;
 }
 
-
 .summary p {
   text-align: left;
+}
+
+.bot {
+  padding: 120px 0;
+  background: #42474C;
 }
