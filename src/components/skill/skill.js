@@ -14,9 +14,7 @@ const Skill = () => {
             <div className="skills">
               <div className="skills wrap">
                 <div className="skills-centerize">
-                  <h3>General:</h3>
-                  <i className="devicon-ruby-plain-wordmark colored"></i>
-                  <i className="devicon-python-plain-wordmark colored"></i>
+                  <h3>Language:</h3>
                   <i className="devicon-javascript-plain colored"></i>
                   <i className="devicon-java-plain-wordmark colored"></i>
                 </div>
