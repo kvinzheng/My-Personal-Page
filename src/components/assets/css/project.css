@@ -34,7 +34,7 @@
 }
 
 .projectTitle {
-  width: 40%;
+  width: 60%;
   border-bottom: 1px solid #13c4B7;
   margin-bottom: 10px;
 }
@@ -53,6 +53,11 @@
 .projectExample {
   height: auto;
   width: 70%
+}
+.yamal {
+  height: auto;
+  padding-left: 10px;
+  width: 50%;
 }
 .projectExampleDown {
   margin: 10px 0px 10px 0px;

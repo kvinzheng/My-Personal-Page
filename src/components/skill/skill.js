@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Knex from '../assets/knex.png';
 const Skill = () => {
     return (
       <div>
@@ -15,44 +15,34 @@ const Skill = () => {
               <div className="skills wrap">
                 <div className="skills-centerize">
                   <h3>Language:</h3>
-                  <i className="devicon-javascript-plain colored"></i>
-                  <i className="devicon-java-plain-wordmark colored"></i>
+                  <i className="devicon-javascript-plain colored"></i>    <i className="devicon-html5-plain-wordmark colored"></i>
+                  <i className="devicon-css3-plain-wordmark colored"></i>
                 </div>
               </div>
 
               <div className="skills wrap">
                 <div className="skills-centerize">
-                  <h3>Frameworks:</h3>
-                  <i className="devicon-rails-plain-wordmark colored"></i>
-                  <i className="devicon-django-line-wordmark"></i>
-                  <i className="devicon-nodejs-plain-wordmark colored"></i>
+                  <h3>Back end:</h3>
+                  <i className="devicon-nodejs-plain colored"></i>
+                  <i className="devicon-postgresql-plain-wordmark"></i>
+                  <i src={Knex}></i>
                 </div>
               </div>
 
               <div className="skills wrap">
                 <div className="skills-centerize">
                   <h3>Front End:</h3>
-                  <i className="devicon-html5-plain-wordmark colored"></i>
-                  <i className="devicon-css3-plain-wordmark colored"></i>
                   <i className="devicon-react-original-wordmark colored"></i>
-                  <i className="devicon-jquery-plain-wordmark colored"></i>
                   <i className="devicon-bootstrap-plain-wordmark colored"></i>
                 </div>
               </div>
 
               <div className="skills wrap">
                 <div className="skills-centerize">
-                  <h3>Database:</h3>
-                  <i className="devicon-mysql-plain-wordmark"></i>
-                  <i className="devicon-postgresql-plain-wordmark colored"></i>
-                </div>
-              </div>
-
-              <div className="skills wrap">
-                <div className="skills-centerize">
-                  <h3>Deployment:</h3>
-                  <i className="devicon-github-plain-wordmark"></i>
+                  <h3>Others:</h3>
+                  <i className="devicon-mocha-plain"></i>
                   <i className="devicon-heroku-original-wordmark colored"></i>
+
                 </div>
               </div>
 

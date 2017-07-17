@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Project1 from './project1';
-
+import Project2 from './project2';
 class Project extends Component {
   constructor(props){
     super(props);
@@ -28,7 +28,7 @@ class Project extends Component {
         <div className="container">
           <div className="project-header">
             <h2 className="project-title">Project</h2>
-            <p>Check out a portion of my capstone:</p>
+            <p>Check out my projects by selecting the one you are interested:</p>
             <div>
               <button className="btn btn-primary butDis" onClick={this.toggleDisplay1}>InTuneNation</button>
               <button className="btn btn-success butDis" onClick={this.toggleDisplay2}>Travel App</button>
@@ -36,6 +36,7 @@ class Project extends Component {
             </div>
           </div>
           <Project1 display={this.state.display1}/>
+          <Project2 display={this.state.display2}/>
         </div>
       </div>
     )

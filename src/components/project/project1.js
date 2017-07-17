@@ -1,8 +1,8 @@
 import React from 'react';
-import graph1 from "../assets/graph1.png";
-import graph2 from "../assets/graph2.png";
-import graph3 from "../assets/graph3.png";
-import graph4 from "../assets/graph4.png";
+import graph1 from "../assets/inTuneGraph1.png";
+import graph2 from "../assets/inTuneGraph2.png";
+import graph3 from "../assets/inTuneGraph3.png";
+import graph4 from "../assets/inTuneGraph4.png";
 
 const Project1 = ({display}) => {
   if(display === 'show'){
@@ -37,7 +37,7 @@ const Project1 = ({display}) => {
         </div>
       </div>
 
-      <p className="GraphExplanation">The first graph (Figure 2) shows you a table and a graph. Each row of the table represent one exercise. By clicking on a row, user is able to see its score on the specific performance. I implemented C3 charting library to display data for users' past performance on vocal exercise by showing line graph and bar graph. Figure 1 shows the css design for the login feature and it includes the Google in log in feature. I used OAuth technolog to allow users to sign in through Google and authenticate users whenever user sign into my app. For more information, click my (<a href="https://github.com/kvinzheng/InTuneNation" target="_blank">GitHub</a>).</p>
+      <p className="GraphExplanation">The first graph (Figure 2) shows you a table and a graph. Each row of the table represent one exercise. By clicking on a row, user is able to see its score on the specific performance. I implemented C3 charting library to display data for users' past performance on vocal exercise by showing line graph and bar graph. Figure 1 shows the css design for the login feature and it includes the Google in log in feature. I used OAuth technolog to allow users to sign in through Google and authenticate users whenever user sign into my app. For more information, click (<a href="https://github.com/kvinzheng/InTuneNation" target="_blank">Front End Github repo</a> && <a href="https://github.com/kvinzheng/InTuneNation_Backend" target="_blank">Back End GitHub repo</a>).</p>
 
       <p className="stackSummary">
         <span className="tech-stack">Technical Stack:</span>
