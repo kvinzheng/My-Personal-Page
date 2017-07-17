@@ -7,20 +7,21 @@ const Skill = () => {
           <div className="section-header">
             <h2 className="section-title">Technologies and Skills</h2>
             <p>My interdisciplinary background in computer science, finance, and data analytics taught me how to build innovative products that solves real problems</p>
-            <p>See the graph below to learn more about my skills and the technologies I've worked with:</p>
+            <p>See the boxes below learn more about my skills and the technologies I've worked with:</p>
           </div>
           <div className="row">
 
             <div className="skills">
-              <div className="skills wrap">
+              <div className="wrap">
                 <div className="skills-centerize">
                   <h3>Language:</h3>
-                  <i className="devicon-javascript-plain colored"></i>    <i className="devicon-html5-plain-wordmark colored"></i>
+                  <i className="devicon-javascript-plain colored"></i>
+                  <i className="devicon-html5-plain-wordmark colored"></i>
                   <i className="devicon-css3-plain-wordmark colored"></i>
                 </div>
               </div>
 
-              <div className="skills wrap">
+              <div className="wrap">
                 <div className="skills-centerize">
                   <h3>Back end:</h3>
                   <i className="devicon-nodejs-plain colored"></i>
@@ -29,7 +30,7 @@ const Skill = () => {
                 </div>
               </div>
 
-              <div className="skills wrap">
+              <div className="wrap">
                 <div className="skills-centerize">
                   <h3>Front End:</h3>
                   <i className="devicon-react-original-wordmark colored"></i>
@@ -46,7 +47,7 @@ const Skill = () => {
                 </div>
               </div>
 
-              <div className="skills wrap">
+              <div className="wrap">
                 <div className="skills-centerize">
                   <h3>Project Management:</h3>
                   <i className="devicon-git-plain-wordmark colored"></i>

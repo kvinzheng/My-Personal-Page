@@ -19,7 +19,7 @@ const Project2 = ({display}) => {
           </div>
         </div>
         <div className="col-md-6">
-          <img id="fig-1" src={graph1} alt="Travel Manager" className="yamal"></img>
+          <img id="fig-2" src={graph1} alt="Travel Manager" className="yamal"></img>
           <figcaption>Figure 1</figcaption>
         </div>
       </div>

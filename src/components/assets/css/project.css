@@ -65,6 +65,12 @@
   width: 80%;
   border: 1px solid #abb0ba;
 }
+.trafficGraph {
+  margin: 10px 0px 10px 0px;
+  height: auto;
+  width: 70%;
+  border: 1px solid #abb0ba;
+}
 
 .GraphExplanation {
   text-align: left;
