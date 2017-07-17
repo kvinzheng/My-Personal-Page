@@ -1,0 +1,68 @@
+.section-header {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  font-weight: 400;
+  color: #262f32;
+  text-transform: uppercase;
+}
+
+.section-header p {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8d8d8d;
+}
+
+.section-header {
+  margin-bottom: 50px;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.skills-centerize {
+    text-align: center;
+}
+
+.skills i {
+    font-size: 60px;
+    margin: 0 3px;
+}
+
+.skills label {
+    display: inline-block;
+    font-family: 'Nunito';
+}
+
+.skills h3 {
+    font-size: 16px;
+}
+
+.skills.wrap {
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.7s;
+    border-radius: 8px;
+    padding: 10px 12px 12px 12px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.skills.wrap:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.8s;
+}
