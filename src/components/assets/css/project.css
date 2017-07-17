@@ -1,8 +1,14 @@
+.project {
+  margin-bottom: 50px;
+}
 .project p {
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #64686d;
+}
+.butDis {
+  margin: 5px 5px 5px 5px;
 }
 .project-header {
   margin-bottom: 50px;
