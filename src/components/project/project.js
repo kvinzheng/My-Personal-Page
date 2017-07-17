@@ -41,6 +41,9 @@ class Project extends Component {
           <Project2 display={this.state.display2}/>
           <Project3 display={this.state.display3}/>
         </div>
+        <div>
+          <div>Buttom</div>
+        </div>
       </div>
     )
   };
