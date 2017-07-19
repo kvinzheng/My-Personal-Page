@@ -38,7 +38,7 @@ const Project2 = ({display}) => {
         </div>
       </div>
 
-      <p className="GraphExplanation">The first graph(Figure 1) is a swagger.yaml file, which conduct my back end. The swagger.yaml file define the input type of the query such as integer or string when try to use the speicific route. It serves the purpose of backed validations, so it reduce the risk of producing unexpected return value. Finally, the swagger.yaml file also define the response types, such as an array or an object. Figure 4 show a snapshot of the app by using the swagger UI interface. For information, click my (<a href="https://github.com/kvinzheng/Travel-Package-Manager" target="_blank">GitHub</a>).</p>
+      <p className="GraphExplanation">The first graph(Figure 1) is a swagger.yaml file, which conducts my back end. The swagger.yaml file defines the input type of the query such as integer or string when try to use the speicific route. By defining the input type of the query, the app has a back end validation and it reduces the risk of producing unexpected return value. Finally, the swagger.yaml file also defines the response types, such as an array or an object. Figure 4 show a snapshot of the app by using the swagger UI interface. For information, click my (<a href="https://github.com/kvinzheng/Travel-Package-Manager" target="_blank">GitHub</a>).</p>
 
       <p className="stackSummary">
         <span className="tech-stack">Technical Stack:</span>

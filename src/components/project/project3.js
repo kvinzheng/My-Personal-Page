@@ -31,7 +31,7 @@ const Project3 = ({display}) => {
             <figcaption>Figure 3</figcaption>
           </div>
         </div>
-      <p className="GraphExplanation">The first graph(Figure 1) is a homepage of my app, and it utilizes the animiation effect as you score down the page. Graph2 shows you a Google Map as well as selection drop down table that let you filter the traffic accidents by its time, day of the week, year and the district in San Francisco. Graph3 shows you a table that show all the traffic accidents that you selected and displays it on the table. For information, click my (<a href="https://github.com/kvinzheng/Q1-Project" target="_blank">GitHub</a>).</p>
+      <p className="GraphExplanation">The first graph(Figure 1) is a homepage of my app, and it utilizes an animiation effect from Materialize css framework as you score down the page. Graph2 shows you a Google Map as well as selection drop down table that let you filter the traffic accidents by its time, day of the week, year and the district in San Francisco. Graph3 shows you a table that show all the traffic accidents that you selected and displays it on the table. For information, click my (<a href="https://github.com/kvinzheng/Q1-Project" target="_blank">GitHub</a>).</p>
 
       <p className="stackSummary">
         <span className="tech-stack">Technical Stack: </span>
