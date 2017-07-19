@@ -20,12 +20,12 @@ const NavBar = () => {
             <LinkContainer exact to="/">
               <NavItem>Home</NavItem>
             </LinkContainer>
-            <LinkContainer exact to="/education">
+            {/* <LinkContainer exact to="/education">
               <NavItem>Education</NavItem>
-            </LinkContainer>
-            <LinkContainer exact to="/Projects">
+            </LinkContainer> */}
+            {/* <LinkContainer exact to="/Projects">
               <NavItem>Projects</NavItem>
-            </LinkContainer>
+            </LinkContainer> */}
             <li role='presentation'>
               <a className="githubLink" href="https://github.com/kvinzheng" target="_blank">GitHub</a>
             </li>
