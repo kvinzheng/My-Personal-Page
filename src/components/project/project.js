@@ -34,7 +34,7 @@ class Project extends Component {
         <div className="container">
           <div className="project-header">
             <h2 className="project-title">Project</h2>
-            <p>Check out my projects by selecting the one you are interested:</p>
+            <p>Check out one of my projects:</p>
             <div>
               <button className="btn btn-primary butDis" onClick={this.toggleDisplay1}>InTuneNation</button>
               <button className="btn btn-success butDis" onClick={this.toggleDisplay2}>Travel App</button>
